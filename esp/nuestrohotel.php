@@ -16,6 +16,28 @@
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
+              .reserve {
+            background-color: #D89499;
+            color: white;
+            border: none;
+            padding:  30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px;
+            line-height: 40px;
+            margin: 8px 4px;
+            cursor: pointer;
+			border-radius: 10px;
+			margin: 10px auto;
+			display: block;
+
+
+        }
+
+		.reserve:hover {
+				background-color: #C77B8D;
+			}
     </style>
     
   	<!-- Google Fonts call. Font Used Open Sans & Open Sans Condensed -->
@@ -166,9 +188,6 @@
         
         
         
-      
-        
-        
         
         
         <!-- span8 -->
@@ -176,9 +195,9 @@
           
 <!--/nav tab -->
           <div class="tab-content">
-            <div class="tab-pane active" id="comments">
-              <p><a href="reservacion.php"><img src="assets/img/reserva.png" width="369" height="119"></a></p>
-            </div>
+				<a href="https://hotels.cloudbeds.com/reservation/bBd28o" TARGET="_blank">
+				<button class="reserve">Reservar Ahora</button> 
+				</a>
             <!--/tab pane -->
             <div class="tab-pane" id="tweets">
               <p><b>@Basicoh_:</b> Saying things in latin to look smarter is my Modus Operandi.</p>
