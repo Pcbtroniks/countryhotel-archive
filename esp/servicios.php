@@ -228,7 +228,6 @@
 		
 	</div><!-- /container -->
 
-	          <div class="tab-content">
 				<a href="https://hotels.cloudbeds.com/reservation/bBd28o" TARGET="_blank">
 				<button class="reserve">Reservar Ahora</button> 
 				</a>

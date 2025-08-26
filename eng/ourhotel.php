@@ -177,7 +177,7 @@
 <!--/nav tab -->
           <div class="tab-content">
             <div class="tab-pane active" id="comments">
-              <p><a href="reservacion.php"><img src="assets/img/reserva.png" width="369" height="119"></a></p>
+              <p><a href="https://hotels.cloudbeds.com/reservation/bBd28o"><img src="assets/img/reserva.png" width="369" height="119"></a></p>
             </div>
             <!--/tab pane -->
             <div class="tab-pane" id="tweets">

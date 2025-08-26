@@ -145,7 +145,7 @@
                     <br>
 					<br>
     			</div>
-                <br><br><br><p><a href="reservacion.php"><img src="assets/img/reserva.png" width="369" height="119"></a></p><!-- /greybox -->
+                <br><br><br><p><a href="https://hotels.cloudbeds.com/reservation/bBd28o"><img src="assets/img/reserva.png" width="369" height="119"></a></p><!-- /greybox -->
 			</div><!-- /span4 -->
 		</div><!-- /row -->
 		<br>
