@@ -1,0 +1,395 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	overflow:hidden; 		/* needed to eliminate scrollbars caused by the background image */
+	padding:0;
+	margin:0;		/* necesarry for the raster to fill the screen */
+	height:100%;
+	width:100%;
+	font-family:Helvetica, "Trebuchet MS", Arial, sans-serif;
+	color: #0CF;
+}
+#bgimg {
+	position:absolute;
+	z-index: -1;
+}
+
+#content{
+	position:absolute;
+	z-index: 5;				/* Place the new body above the background image */
+	overflow:auto; 			/* restore scrollbars for the content */
+	height:100%;width:100%;	/* Make the new body fill the screen */
+	background: url('../img/raster.png'); /* this is just a fancy raster, you can remove it; I kinda like it though */
+}
+p{
+	margin:0;
+	padding:0;
+}
+h2{
+	margin:0;
+	padding:0;
+	font-size:36px;
+	letter-spacing:-3px;
+	font-weight:normal;
+	}
+.container{
+	position: relative;
+	width: 688px;
+	padding: 0;
+	margin: 0 auto;
+}
+.container-inner{
+	bottom: 0;
+    position: fixed;
+    width: 688px;
+	}
+#cookie-set .container{
+	padding-top:276px;
+	/*background:none;*/
+}
+.content{
+	position: relative;
+	width: 430px;
+	min-height: 200px;
+	background-color: #000;
+	padding: 30px;
+	text-align: center;
+	margin: 0px auto;
+	background: url(../images/bg-opaque.png) repeat left top ;
+}
+
+.content_new{
+	width: 722px;
+	/*min-height: 186px;
+	height: 186px;*/
+	/*background-color: #f28bb8;*/
+	padding: 0px;
+	text-align: left;
+	margin: 0px auto;
+	/*padding-top:16px;*/
+	padding-bottom:16px;
+}
+#cookie-set .content_new{
+	background:url(../images/black-pattern.png) repeat;
+	text-align:center;
+}
+.content_left{
+	position: relative;
+	float: left;
+	width: 334px;
+	/*height: 300px;
+	min-height: 300px;*/
+	
+	margin: 0px;
+	color:#FFFFFF;
+}
+.content_right{
+	position: relative;
+	float: right;
+	width: 350px;
+	padding-top: 106px;
+	color:#757575;
+}
+.content_right p{
+	text-align:left;
+	padding:1px 0 1px 6px;
+	font-size:23px;
+	font-weight:normal;
+	letter-spacing:-1px;
+}
+.content_right p strong{
+	color:#20261e;
+	}
+.content_right2{
+	position: relative;
+	float: right;
+	width: 399px;
+	padding-top: 60px;
+}
+
+
+
+.content_text{
+	width: 430px;
+	text-align: center;
+	color: #FFF;
+	font-size: 17px;
+	line-height: 130%;
+	font-weight: bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+
+#signup-button
+{
+  display: block;
+  width: 399px;
+  height: 236px;
+  background: url("../../assets/images/click-here.png") no-repeat 0 0;
+}
+
+#signup-button:hover
+{ 
+  background-position: 0 -236px;
+}
+
+#signup-button span
+{
+  display: none;
+}
+
+
+
+/*------------------------------------------ header style*/
+
+.download-latest{
+	width:315px;
+	height:53px;
+	display:none;
+}
+.download-latest a{
+	width:315px;
+	height:53px;
+	padding-top:20px;
+	display:block;
+	overflow:hidden;
+	background:url(../images/latest-button.png) left top no-repeat;
+}
+.download-latest a:hover{
+	background-position:0 -20px;
+}
+/*----------------------------------------- right-top*/
+
+
+.email4media_box {
+	display:block;
+	width:341px;
+	height:66px;
+	padding:0;
+}
+#email4media_widget_box {
+	display:none;
+	width:341px;
+	/*height:112px;*/
+	text-align:center;
+}
+a#btn_email4media {
+	width:300px;
+	font-size:36px;
+	letter-spacing:-3px;
+	color:#000000;
+	text-decoration:none;
+	/*height:0px;
+	padding-top:75px;
+	display:block;
+	overflow:hidden;
+	background:url(../images/get-button.png) left top no-repeat;*/	
+}
+/*a#btn_email4media:hover {
+	background-position:0 -75px;
+}*/
+
+
+.album-dl-button{
+	width:576px;
+	height:135px;
+	display:block;
+	margin:0 auto;
+	background:url(../images/album-dl-button.png) 0 0 no-repeat;
+}
+.album-dl-button:hover{
+	background-position:0 -135px;
+}
+
+
+.download-button{
+	width:333px;
+	height:46px;
+	display:block;
+	margin:0 auto;
+	background:url(../images/download-button.png) 0 0 no-repeat;
+}
+.download-button:hover{
+	background-position:0 -46px;
+}
+.share-on{
+	width:310px;
+	margin:0 auto;
+	margin-top:16px;
+	text-align:center;
+}
+.share-links { text-align:right;width:940px;margin:0 auto;margin-top: 16px;}
+.share-on a { text-decoration: none; color: #333333; font-size: 12px; padding-left: 24px; padding-bottom: 0; font-weight:bold;line-height:16px; }
+.share-on a:hover{
+	font-size: 12px;
+	text-decoration:underline;
+}
+.share-on .fb { background: url(../images/fb.png) no-repeat center left;float:left;}
+.share-on .tw { background: url(../images/tw.png) no-repeat center left;float:right;}
+#post-facebook
+{
+	float:left;
+  /*margin:0 auto;*/
+  margin-top:0;
+  display: block;
+  width: 207px;
+  height: 16px;
+  background: url(../../assets/images/share-facebook.png) no-repeat 0 0;
+}
+
+#post-facebook:hover
+{ 
+  background-position: 0 -16px;
+}
+
+#post-facebook span
+{
+  display: none;
+}
+
+
+#post-twitter
+{
+  float:left;
+  /*margin:0 auto;*/
+  margin-top:0;
+  display: block;
+  width: 215px;
+  height: 16px;
+  background: url(../../assets/images/share-twitter.png) no-repeat 0 0;
+}
+
+#post-twitter:hover
+{ 
+  background-position: 0 -16px;
+}
+
+#post-twitter span
+{
+  display: none;
+}
+
+
+
+
+
+
+/* FOOTER CONTAINER */
+#footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	/* background-color: #000; */ 
+}
+
+.continue-button
+{
+  margin: 0 auto;
+  margin-top:10px;
+  display: block;
+  width: 384px;
+  height: 16px;
+  background: url(../images/continue-to.png) no-repeat 0 0;
+}
+
+.continue-button:hover
+{ 
+  background-position: 0 -16px;
+}
+
+#continue-button span
+{
+  display: none;
+}
+.tour-dates{
+	margin: 0 auto;
+	margin-top:50px;
+	display: block;
+	width: 414px;
+	height: 16px;
+	background: url(../images/tour-dates.png) no-repeat 0 0;
+}
+.tour-dates:hover
+{ 
+  background-position: 0 -16px;
+}
+
+#footer-text{
+	margin: 90px auto;
+	text-align: center;
+	color: #bec9d7;
+	font-weight: normal;
+	font-size: 13px;
+	text-transform:uppercase;
+}
+#footer_links{
+	width:100%;
+	margin: 0 auto;
+	font-size:30px;
+	letter-spacing:-2px;
+	color:#000;
+}
+.share-lnk a{
+	position:absolute;
+	top:0;
+	right:0;
+	padding-top:12px;
+	height:0;
+	display:block;
+	overflow:hidden;
+}
+.share-lnk a:hover{
+	border-bottom:1px solid #e8cc77;
+}
+.share-lnk a.twitter-lnk{
+	width:33px;
+	right:153px;
+}
+.share-lnk a.facebook-lnk{
+	width:40px;
+	right:74px;
+}
+.share-lnk a.myspace-lnk{
+	width:35px;
+	right:0px;
+}
+#footer_links a, #footer-text a{
+	color: #000;
+	text-decoration: none;
+	margin:80px 0;
+}
+
+#footer-text a{
+	font-size: 13px;
+}
+
+#footer_links a:hover, #footer-text a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+/* END FOOTER CONTAINER */
+.clear{
+	clear:both;
+	height:0;
+	font-size:0;
+}
+a.left_arrow, a.right_arrow{
+	position:absolute;
+	width:24px;
+	height:0px;
+	display:block;
+	padding-top:45px;
+	overflow:hidden;
+	z-index:10;
+	}
+a.left_arrow{
+	background:url(../images/left_arrow.gif) left top no-repeat;
+	top:332px;
+	left:-95px;
+	}
+a.right_arrow{
+	top:332px;
+	right:-95px;
+	background:url(../images/right_arrow.gif) left top no-repeat;
+	}
